@@ -344,12 +344,6 @@ require('lazy').setup({
       -- [[ Configure Telescope ]]
       -- See `:help telescope` and `:help telescope.setup()`
       require('telescope').setup {
-        defaults = {
-          vimgrep_arguments = {
-            'rg',
-            '--smart-case',
-          },
-        },
         -- You can put your default mappings / updates / etc. in here
         --  All the info you're looking for is in `:help telescope.setup()`
         --
